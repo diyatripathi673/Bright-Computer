@@ -58,4 +58,4 @@ async function userSignInController(req, res) {
   }
 }
 
-module.exports = userSignInController;
+export default userSignInController;

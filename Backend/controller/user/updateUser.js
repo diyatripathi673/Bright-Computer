@@ -1,4 +1,5 @@
 // const addToCartModel = require("../../models/cartProduct")
+import e from "express";
 import addToCartModel from "../../models/cartProduct.js";
 
 async function updateUser(req, res) {
@@ -34,4 +35,4 @@ async function updateUser(req, res) {
   }
 }
 
-module.exports = updateUser;
+export default updateUser;

@@ -22,4 +22,4 @@ const getProductDetails = async (req, res) => {
   }
 };
 
-module.exports = getProductDetails;
+export default getProductDetails;

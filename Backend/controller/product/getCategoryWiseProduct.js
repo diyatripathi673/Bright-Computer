@@ -21,4 +21,4 @@ const getCategoryWiseProduct = async (req, res) => {
   }
 };
 
-module.exports = getCategoryWiseProduct;
+export default getCategoryWiseProduct;

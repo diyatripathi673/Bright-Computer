@@ -23,4 +23,4 @@ async function userDetailsController(req, res) {
   }
 }
 
-module.exports = userDetailsController;
+export default userDetailsController;

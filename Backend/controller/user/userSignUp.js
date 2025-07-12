@@ -56,4 +56,4 @@ async function userSignUpController(req, res) {
   }
 }
 
-module.exports = userSignUpController;
+export default userSignUpController;

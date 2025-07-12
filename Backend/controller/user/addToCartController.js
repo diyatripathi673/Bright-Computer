@@ -1,6 +1,6 @@
 // const addToCartModel = require("../../models/cartProduct")
+// import addToCartModel from "../../models/cartProduct.js";
 import addToCartModel from "../../models/cartProduct.js";
-
 const addToCartController = async (req, res) => {
   try {
     const { productId } = req?.body;
@@ -42,4 +42,4 @@ const addToCartController = async (req, res) => {
   }
 };
 
-module.exports = addToCartController;
+export default addToCartController;

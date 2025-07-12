@@ -29,4 +29,4 @@ const updateAddToCartProduct = async (req, res) => {
   }
 };
 
-module.exports = updateAddToCartProduct;
+export default updateAddToCartProduct;

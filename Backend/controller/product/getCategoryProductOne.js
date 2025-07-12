@@ -33,4 +33,4 @@ const getCategoryProduct = async (req, res) => {
   }
 };
 
-module.exports = getCategoryProduct;
+export default getCategoryProduct;

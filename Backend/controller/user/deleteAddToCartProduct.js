@@ -25,4 +25,4 @@ const deleteAddToCartProduct = async (req, res) => {
   }
 };
 
-module.exports = deleteAddToCartProduct;
+export default deleteAddToCartProduct;

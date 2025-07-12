@@ -28,4 +28,4 @@ async function updateProductController(req, res) {
   }
 }
 
-module.exports = updateProductController;
+export default updateProductController;

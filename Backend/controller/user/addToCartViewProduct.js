@@ -25,4 +25,4 @@ const addToCartViewProduct = async (req, res) => {
   }
 };
 
-module.exports = addToCartViewProduct;
+export default addToCartViewProduct;

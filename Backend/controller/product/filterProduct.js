@@ -26,4 +26,4 @@ const filterProductController = async (req, res) => {
   }
 };
 
-module.exports = filterProductController;
+export default filterProductController;

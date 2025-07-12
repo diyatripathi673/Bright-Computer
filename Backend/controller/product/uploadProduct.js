@@ -29,4 +29,4 @@ async function UploadProductController(req, res) {
   }
 }
 
-module.exports = UploadProductController;
+export default UploadProductController;

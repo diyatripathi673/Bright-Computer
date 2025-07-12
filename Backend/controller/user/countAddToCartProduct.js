@@ -26,4 +26,4 @@ const countAddToCartProduct = async (req, res) => {
   }
 };
 
-module.exports = countAddToCartProduct;
+export default countAddToCartProduct;
