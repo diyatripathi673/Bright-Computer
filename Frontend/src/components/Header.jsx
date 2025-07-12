@@ -26,7 +26,7 @@ const Header = () => {
                      <div className='text-2xl text-gray-500 hover:text-gray-700 cursor-pointer transition-all duration-300 hover:scale-110 hover:rotate-12 relative'>
              <GrCart />
              <div className='absolute -top-2 -right-2 bg-red-500 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs'>
-               0
+               00
              </div>
            </div>
           <div className='flex items-center gap-2'>
