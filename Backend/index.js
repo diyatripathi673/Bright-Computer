@@ -1,4 +1,3 @@
-// index.js or server.js
 import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
@@ -7,13 +6,18 @@ import router from "./routes/index.js";
 dotenv.config();
 
 const app = express();
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 4000;
 
-app.use(cors());
+// ✅ Correct CORS setup for credentials
+app.use(
+  cors({
+    origin: "http://localhost:5173",
+    credentials: true,
+  })
+);
+
 app.use(express.json());
-
-// ✅ Register Routes
-app.use("/", router); // If signup route is at /signup
+app.use("/", router);
 
 app.get("/", (req, res) => {
   res.send("Server is working!");

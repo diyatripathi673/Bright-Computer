@@ -1,15 +1,4 @@
-// import React from 'react'
 
-// const Login = () => {
-//   return (
-//     // <section id='login'>
-//     //   <div className='container mx-auto px-4 py-10'>Login</div>
-//     // </section>
-//     <div>Login</div>
-//   )
-// }
-
-// export default Login
 import React, { useContext, useState } from 'react';                  
 import loginIcons from '../assest/signin.gif';                         
 import { FaEye, FaEyeSlash } from 'react-icons/fa';                    
