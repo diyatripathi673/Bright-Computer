@@ -10,12 +10,14 @@ import { Outlet } from "react-router-dom";
 
 const AdminPanel = () => {
   return (
-    <div className="min-h-[calc(100vh-120px)]flex">
+    <div className="min-h-[calc(100vh-120px)] flex">
+      {" "}
+      {/* ✅ Fixed spacing */}
       <aside className="bg-gray-200 min-h-190 w-full max-w-60 shadow-lg p-4 ">
         <div className="flex items-center justify-center mb-6">
           <div
             className="text-2xl text-gray-500 hover:text-gray-700 cursor-pointer transition-all duration-300 hover:scale-110 hover:rotate-12"
-            onClick={() => setDropdownOpen((prev) => !prev)}
+            onClick={() => setDropdownOpen((prev) => !prev)} // Optional: define setDropdownOpen if needed
           >
             <FaUser />
           </div>
