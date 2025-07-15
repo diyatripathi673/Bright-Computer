@@ -17,7 +17,7 @@ const AdminPanel = () => {
             <FaUser />
           </div>
         </div>
-        <p></p>
+        <p>00</p>
       </aside>
       <main>
         main
