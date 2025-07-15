@@ -8,6 +8,8 @@ import Footer from "./components/Footer";
 import { FaUser } from "react-icons/fa";
 import Signup from "./pages/SignUp"; // Uncomment if you have this file
 import { ToastContainer } from 'react-toastify';
+import AllUsers from './pages/AllUsers';
+import AllProducts from './pages/AllProducts';
 
 const App = () => {
   return (
@@ -20,6 +22,10 @@ const App = () => {
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
             <Route path="/admin-panel" element={<AdminPanel />} />
+            <Route path="/all-users" element={<AllUsers/>}/>
+            <Route path="/all-product" element={<AllProducts />} />
+          
+
           </Routes>
         </main>
         <Footer />
