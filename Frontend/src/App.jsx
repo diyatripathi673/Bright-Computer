@@ -10,6 +10,10 @@ import Signup from "./pages/SignUp"; // Uncomment if you have this file
 import { ToastContainer } from 'react-toastify';
 import AllUsers from './pages/AllUsers';
 import AllProducts from './pages/AllProducts';
+import CategoryPassword from './pages/CategoryPassword'; 
+import Cart from './pages/Cart';
+import ProductDetails from './pages/ProductDetails';
+import SearchProduct from './pages/SearchProduct';
 
 const App = () => {
   return (
@@ -20,10 +24,15 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/login" element={<Login />} />
-            <Route path="/signup" element={<Signup />} />
+            <Route path="/sign-up" element={<Signup />} />
             <Route path="/admin-panel" element={<AdminPanel />} />
             <Route path="/all-users" element={<AllUsers/>}/>
             <Route path="/all-product" element={<AllProducts />} />
+             <Route path="/product-category" element={<CategoryPassword />} />
+            <Route path="/cart" element={<Cart />} />
+            <Route path="/product-details/:id" element={<ProductDetails />} />
+            <Route path="/search-product" element={<SearchProduct />} />
+
           
 
           </Routes>
